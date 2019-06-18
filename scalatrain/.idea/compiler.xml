@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="scalatrain" />
+        <module name="scala-train" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="scala-train" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
